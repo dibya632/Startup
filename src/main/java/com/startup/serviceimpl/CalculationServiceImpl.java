@@ -8,10 +8,14 @@ public class CalculationServiceImpl implements CalculationService {
 	 * method for area of triangle
 	 * @param height
 	 * @param base
+	 * @variable area to store area of triangle
 	 */
 	public void areaTrangle(double height, double base) {
 		// TODO Auto-generated method stub
-		
+		//Area = (width*height)/2
+	      double area = (base* height)/2;
+	      System.out.println("Area of Triangle is: " + area);  
+	      
 	}
 
 
