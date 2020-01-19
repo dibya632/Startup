@@ -14,4 +14,11 @@ public interface CalculationService {
   */
  public void areaTrangle(double height, double base);
 
+ /**
+  * Multiplication.
+  *
+  * @param firstNumber the first number
+  * @param secondNumber the second number
+  */
+ public void multiplication(int firstNumber,int secondNumber);
 }

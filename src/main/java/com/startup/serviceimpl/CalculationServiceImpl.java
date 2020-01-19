@@ -14,5 +14,10 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	public void multiplication(int firstNumber, int secondNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }
