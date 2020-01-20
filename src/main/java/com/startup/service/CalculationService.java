@@ -28,4 +28,6 @@ public interface CalculationService {
   * Modular.
   */
  public void Modular(int num,int rem);
+ 
+ public void cubeOfNumber(int number);
 }

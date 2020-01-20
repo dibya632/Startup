@@ -38,5 +38,13 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	public void cubeOfNumber(int number) {
+		
+		int cube=(number*number*number);
+		System.out.println("Cube of a number="+cube);
+		
+		
+	}
+
 
 }
