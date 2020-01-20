@@ -3,6 +3,8 @@ package com.startup.service;
 // TODO: Auto-generated Javadoc
 /**
  * The Interface CalculationService.
+ * 19/01/2020
+ * 
  */
 public interface CalculationService {
 
@@ -21,4 +23,9 @@ public interface CalculationService {
   * @param secondNumber the second number
   */
  public void multiplication(int firstNumber,int secondNumber);
+ 
+ /**
+  * Modular.
+  */
+ public void Modular(int num,int rem);
 }

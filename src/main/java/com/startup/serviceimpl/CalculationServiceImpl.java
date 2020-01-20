@@ -27,5 +27,16 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	public void Modular(int num, int rem) {
+		int modulo=2;
+		if(rem==0) {
+			System.out.println("This number is Even Number");
+		}
+		else {
+			System.out.println("This number is Odd Number");
+		}
+		
+	}
+
 
 }

@@ -1,6 +1,6 @@
 package com.startup.main;
 
-public class Test {
+public class ModularTest {
 
 }
  
