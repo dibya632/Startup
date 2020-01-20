@@ -37,6 +37,10 @@ public class CalculationServiceImpl implements CalculationService {
 		}
 		
 	}
+	/**
+	 * implementation class of cube of a number 
+	 * get number from main method
+	 */
 
 	public void cubeOfNumber(int number) {
 		
