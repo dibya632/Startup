@@ -2,12 +2,17 @@ package com.startup.serviceimpl;
 
 import com.startup.service.CalculationService;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class CalculationServiceImpl.
+ */
 public class CalculationServiceImpl implements CalculationService {
 
 	/**
-	 * method for area of triangle
-	 * @param height
-	 * @param base
+	 * method for area of triangle.
+	 *
+	 * @param height the height
+	 * @param base the base
 	 * @variable area to store area of triangle
 	 */
 	public void areaTrangle(double height, double base) {
@@ -18,6 +23,9 @@ public class CalculationServiceImpl implements CalculationService {
 	      
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#multiplication(int, int)
+	 */
 	public void multiplication(int firstNumber, int secondNumber) {
 		int thirdNumber;
 		thirdNumber=firstNumber*secondNumber;
@@ -27,19 +35,20 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#Modular(int, int)
+	 */
 	public void Modular(int num, int rem) {
 		int modulo=2;
-		if(rem==0) {
-			System.out.println("This number is Even Number");
-		}
-		else {
-			System.out.println("This number is Odd Number");
-		}
+		
 		
 	}
+	
 	/**
 	 * implementation class of cube of a number 
-	 * get number from main method
+	 * get number from main method.
+	 *
+	 * @param number the number
 	 */
 
 	public void cubeOfNumber(int number) {
@@ -50,6 +59,9 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#OddEvenNumber(int)
+	 */
 	public void OddEvenNumber(int num) {
 
 		if(num%2==0) {
@@ -58,6 +70,18 @@ public class CalculationServiceImpl implements CalculationService {
 		else {
 			System.out.println("This number is Odd Number");
 		}
+		
+	}
+	
+
+	/* (non-Javadoc)
+	 * @see com.startup.service.CalculationService#CylinderParimeter(int, int, int)
+	 * 21/01/2020
+	 */
+	public void CylinderParimeter(int pi, int D, int h) {
+	int P;
+	P = 2* ( pi *D +  h);
+	System.out.println("The Parimeter Cylinder is"+P);
 		
 	}
 
