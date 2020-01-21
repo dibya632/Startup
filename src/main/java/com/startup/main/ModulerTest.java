@@ -14,9 +14,9 @@ public class ModulerTest {
 		CalculationServiceImpl obj=new CalculationServiceImpl();
 		System.out.println("Emter the number :");
 		Scanner sc=new Scanner (System.in);
-		int num=sc.nextInt();
-		int rem=sc.nextInt();
-	obj.Modular(num, rem);
+		int x=sc.nextInt();
+		
+	obj.Modular(x);
 	}
 
 }
