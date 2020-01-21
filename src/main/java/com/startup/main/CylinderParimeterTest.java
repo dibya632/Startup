@@ -20,12 +20,12 @@ public class CylinderParimeterTest {
 	 */
 	public static void main(String[] args) {
 		CalculationServiceImpl obj=new CalculationServiceImpl();
-		System.out.println("Enter the Number");
+		System.out.println("Enter the Number :");
 		Scanner sc=new Scanner(System.in);
 		int D=sc.nextInt();
 		int h=sc.nextInt();
 		int pi=22/7;
-		obj.CylinderParimeter(pi, D, h);
+		obj.cylinderParimeter(pi, D, h);
 	}
 
 }

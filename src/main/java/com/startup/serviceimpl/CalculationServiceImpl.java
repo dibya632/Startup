@@ -75,15 +75,17 @@ public class CalculationServiceImpl implements CalculationService {
 	
 
 	/* (non-Javadoc)
-	 * @see com.startup.service.CalculationService#CylinderParimeter(int, int, int)
+	 * @see com.startup.service.CalculationService#cylinderParimeter(int, int, int)
 	 * 21/01/2020
 	 */
-	public void CylinderParimeter(int pi, int D, int h) {
+	public void cylinderParimeter(int pi, int D, int h) {
 	int P;
 	P = 2* ( pi *D +  h);
 	System.out.println("The Parimeter Cylinder is"+P);
 		
 	}
+
+	
 
 	
 

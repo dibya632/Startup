@@ -48,7 +48,7 @@ public interface CalculationService {
   * @param D the d
   * @param h the h
   */
- public void CylinderParimeter(int pi,int D,int h) ;
+ public void cylinderParimeter(int pi,int D,int h) ;
 		
 
 	//Add that to twice the height of the cylinder, and you'll have its perimeter.
