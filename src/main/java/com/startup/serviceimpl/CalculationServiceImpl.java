@@ -50,5 +50,18 @@ public class CalculationServiceImpl implements CalculationService {
 		
 	}
 
+	public void OddEvenNumber(int num) {
+
+		if(num%2==0) {
+			System.out.println("The number is even Number");
+		}
+		else {
+			System.out.println("This number is Odd Number");
+		}
+		
+	}
+
+	
+
 
 }

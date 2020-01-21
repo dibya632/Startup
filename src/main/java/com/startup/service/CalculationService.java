@@ -32,5 +32,5 @@ public interface CalculationService {
   * 
   * @param number
   */
- public void cubeOfNumber(int number);
+ public void OddEvenNumber(int num);
 }
