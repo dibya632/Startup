@@ -112,7 +112,7 @@ public class CalculationServiceImpl implements CalculationService {
 		 */
 		// TODO Auto-generated method stub
 		double peri= x+y+z;
-		System.out.println("perimeter of Triangle:" + peri);
+		System.out.println("perimeter of Triangle  is:" + peri);
 	}
 
 }
