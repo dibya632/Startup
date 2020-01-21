@@ -30,7 +30,7 @@ public interface CalculationService {
   * @param num the num
   * @param rem the rem
   */
- public void Modular(int num,int rem);
+ public void Modular(int x);
  
  /**
   * Odd even number.
