@@ -99,4 +99,20 @@ public class CalculationServiceImpl implements CalculationService {
 
 	}
 
+	public void periTriangle(float x, float y, float z) {
+		/**
+		 * method for perimiter of triangle.
+		 *
+		 * @param side as float y
+		 *           
+		 * @param base float x
+		 *   
+		 * @param base  float z        
+		 * @variable peri to store perimiter of triangle
+		 */
+		// TODO Auto-generated method stub
+		double peri= x+y+z;
+		System.out.println("perimeter of Triangle:" + peri);
+	}
+
 }

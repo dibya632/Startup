@@ -64,7 +64,7 @@ public interface CalculationService {
 	 */
 	public void squareofPerimeter(int a);
  
-
+	public void periTriangle(float x, float y, float z);
  
 }
 
