@@ -56,6 +56,14 @@ public interface CalculationService {
 	//The formula is: P = 2 ( pi D +  h).
 	//
 	//Where D = diameter of the cylinder and h = height of cylinder.
+ 
+ /**
+	 * Squareof perimeter.
+	 *
+	 * @param a the a
+	 */
+	public void squareofPerimeter(int a);
+ 
 
  
 }
